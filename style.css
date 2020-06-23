@@ -1,0 +1,96 @@
+:root {
+	--main-yellow: #ffcb74;
+	--main-moss: #b1b493;
+	--main-teal: #4f8a8b;
+	--main-black: #07031a;
+	--main-white: #faeee7;
+}
+
+body {
+	color: var(--main-black);
+	font-size: 25px;
+	font-family: 'Helvetica';
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+
+h1 {
+  font-family: 'Poppins';
+  color: var(--main-teal);
+  font-weight: lighter;
+  font-size: 40x;
+} */
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 17x;
+} 
+
+a {
+  color: var(--main-yellow);
+} 
+
+a:hover {
+	text-decoration: none;
+	color: var(--main-moss);
+}
+
+
+#banner {
+	background-image: url(https://images.unsplash.com/photo-1514896818-d778f2fac2e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80);
+	text-align: center;
+	color: var(--main-black);
+	padding: 100px;
+	text-shadow: 1px 1px 5px var(--main-moss);
+}
+
+
+#banner h1 {
+	color: var(--main-white);
+	font-size: 50px;
+}
+
+
+#banner p {
+	color: var(--main-white);
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+
+#banner a {
+	color: var(--main-yellow);
+	background-color: var(--main-black);
+	padding: 10px, 5px;
+} 
+
+
+#footer {
+	padding: 30px;
+	background: var(--main-black);
+	color: var(--main-yellow);
+}
+
+
+#footer a {
+	color: var(--main-teal);
+	font-size: 15px;
+}
+
+#footer a:hover {
+	color: var(--main-moss);
+}
